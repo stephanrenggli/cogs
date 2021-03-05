@@ -42,7 +42,7 @@ class TextToSpeech(commands.Cog):
         print(ctx.guild.id)
 
     @commands.command()
-    async def tts(self, ctx, *, message=None):
+    async def tts(self, ctx, *, message: str):
 
         aws_access_key_id = await self.bot.get_shared_api_tokens("aws")
         if aws_access_key_id.get("aws_access_key_id") is None:
