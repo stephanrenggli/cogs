@@ -10,7 +10,7 @@
     "required_cogs": {
         "audio": "https://github.com/Cog-Creators/Red-DiscordBot"
     },
-    "requirements": ["boto3","red-lavalink"],
+    "requirements": ["boto3","red-lavalink","pydub"],
     "tags": [
         "tts"
     ],
