@@ -1,0 +1,21 @@
+{
+    "name": "TextToSpeech",
+    "short": "TTS",
+    "description": "TTS",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "Thanks for installing! Make sure to set your AWS API keys.",
+    "author": [
+        "Alien#6215"
+    ],
+    "required_cogs": {
+        "audio": "https://github.com/Cog-Creators/Red-DiscordBot"
+    },
+    "requirements": ["boto3","red-lavalink"],
+    "tags": [
+        "tts"
+    ],
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
